@@ -1,0 +1,9 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PottyTag.Styles">
+    <!-- Page Background -->
+    <Color x:Key="PT_PageBackground">#FFC669</Color>
+    <SolidColorBrush x:Key="PT_PageBackgroundBrush" Color="{StaticResource PT_PageBackground}" />
+</ResourceDictionary>
+

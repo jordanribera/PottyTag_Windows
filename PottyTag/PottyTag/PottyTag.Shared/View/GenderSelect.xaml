@@ -1,0 +1,92 @@
+﻿<Page
+    x:Class="PottyTag.View.GenderSelect"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PottyTag.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid
+        x:Name="RootGrid"
+        Background="{StaticResource PT_PageBackgroundBrush}">
+        <Grid
+            x:Name="LandscapeContainer"
+            Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Image 
+                Grid.Row="0"
+                Margin="30"
+                Source="/Assets/icons/pottytag_water.png"/>
+            <Image
+                Grid.Row="1"
+                Margin="30"
+                Source="/Assets/icons/selectgender.png"/>
+            <Grid
+                Grid.Row="2"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                Margin="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button
+                    Grid.Column="0"
+                    Margin="5"
+                    Style="{StaticResource PT_GenderSelectMale}"
+                    Click="MaleButton_Click">
+                </Button>
+                <Button
+                    Margin="5"
+                    Grid.Column="1"
+                    Style="{StaticResource PT_GenderSelectFemale}"
+                    Click="FemaleButton_Click">
+                </Button>
+            </Grid>
+        </Grid>
+        
+        <StackPanel
+            x:Name="PortraitTopContainer">
+            <Image 
+            Margin="30"
+            Source="/Assets/icons/pottytag_water.png"/>
+            <Image
+            Margin="30"
+            Source="/Assets/icons/selectgender.png"/>
+        </StackPanel>
+
+        <Grid
+            x:Name="PortraitBottomContainer"
+            VerticalAlignment="Bottom"
+            Margin="30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button
+                x:Name="MaleButton"
+                Grid.Column="0"
+                Margin="5"
+                Style="{StaticResource PT_GenderSelectMale}"
+                Click="MaleButton_Click">
+            </Button>
+            <Button
+                x:Name="FemaleButton"
+                Margin="5"
+                Grid.Column="1"
+                Style="{StaticResource PT_GenderSelectFemale}"
+                Click="FemaleButton_Click">
+            </Button>
+        </Grid>
+
+        <Image
+            Canvas.ZIndex="-1"
+            VerticalAlignment="Bottom"
+            Source="/Assets/icons/wave.png"/>
+    </Grid>
+</Page>

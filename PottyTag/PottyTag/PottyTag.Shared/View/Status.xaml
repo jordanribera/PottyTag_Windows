@@ -1,0 +1,122 @@
+﻿<Page
+    x:Class="PottyTag.View.Status"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PottyTag.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding ViewModel, RelativeSource={RelativeSource Self}}">
+
+    <Grid Background="{StaticResource PT_PageBackgroundBrush}">
+        <Image
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Margin="60"
+            Width="100"
+            Height="100"
+            Source="/Assets/icons/waterdrop.png"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Image
+                Grid.Row="0"
+                Margin="20"
+                Source="/Assets/icons/bathroom_status.png"/>
+            <Grid
+                Grid.Row="1"
+                Margin="20"
+                HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button
+                    Margin="5"
+                    Grid.Column="0"
+                    Style="{StaticResource PT_ToiletOccupiedMale}"
+                    Visibility="{Binding IsMaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Male 1
+                </Button>
+                <Button
+                    Margin="5"
+                    Grid.Column="1"
+                    Style="{StaticResource PT_ToiletOccupiedMale}"
+                    Visibility="{Binding IsMaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Male 2
+                </Button>
+                <Button
+                    Margin="5"
+                    Grid.Column="0"
+                    Style="{StaticResource PT_ToiletOccupiedFemale}"
+                    Visibility="{Binding IsFemaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Female 1
+                </Button>
+                <Button
+                    Margin="5"
+                    Grid.Column="1"
+                    Style="{StaticResource PT_ToiletOccupiedFemale}"
+                    Visibility="{Binding IsFemaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Female 2
+                </Button>
+                <Button
+                    Margin="5"
+                    Grid.Column="0"
+                    Style="{StaticResource PT_OpenToilet}"
+                    Visibility="{Binding IsToiletOneOpen, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Toilet 1 Open
+                </Button>
+                <Button
+                    Margin="5"
+                    Grid.Column="1"
+                    Style="{StaticResource PT_OpenToilet}"
+                    Visibility="{Binding IsToiletTwoOpen, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Toilet 2 Open
+                </Button>
+                <Button
+                    Margin="5"
+                    Grid.Column="0"
+                    Style="{StaticResource PT_DisabledToilet}"
+                    Visibility="{Binding IsToiletOneDisabled, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Toilet 1 Disabled
+                </Button>
+                <Button
+                    Margin="5"
+                    Grid.Column="1"
+                    Style="{StaticResource PT_DisabledToilet}"
+                    Visibility="{Binding IsToiletTwoDisabled, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Toilet 2 Disabled
+                </Button>
+            </Grid>
+            
+            <Button
+                Grid.Row="2"
+                HorizontalAlignment="Center"
+                Margin="40"
+                x:Name="CheckInButton"
+                Style="{StaticResource PT_CheckIn}"
+                Click="CheckInButton_Click"
+                Visibility="{Binding IsCheckedIn, Converter={StaticResource NegatedBoolToVisibilityConverter}}">
+                Check In
+            </Button>
+            <Button
+                Grid.Row="2"
+                HorizontalAlignment="Center"
+                Margin="40"
+                x:Name="CheckOutButton"
+                Style="{StaticResource PT_CheckOut}"
+                Click="CheckOutButton_Click"
+                Visibility="{Binding IsCheckedIn, Converter={StaticResource BoolToVisibilityConverter}}">
+                Check Out
+            </Button>
+            
+        </Grid>
+        <Image
+            Canvas.ZIndex="-1"
+            VerticalAlignment="Bottom"
+            Source="/Assets/icons/wave.png"/>
+    </Grid>
+</Page>

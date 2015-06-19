@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SHELDON-MBP</Machine>
+    <WindowsUser>Sheldon</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c3e09421-8a30-4cdf-97b2-f70ce1ac83d7</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>D53517D488A416ABE3C726816F2A3EE835376615B3CC37622D410BD7DA5607C9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c3e09421-8a30-4cdf-97b2-f70ce1ac83d7_1.0.0.0_neutral__v2ggcgagg6brm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c3e09421-8a30-4cdf-97b2-f70ce1ac83d7_v2ggcgagg6brm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c3e09421-8a30-4cdf-97b2-f70ce1ac83d7</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Sheldon</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-18T22:47:35.170</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\Debug\PottyTag.Windows.exe">
+      <PackagePath>PottyTag.Windows.exe</PackagePath>
+      <Modified>2015-06-18T22:52:26.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-06-18T22:47:34.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-06-18T22:52:26.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\Debug\PottyTag.Windows.xr.xml">
+      <PackagePath>PottyTag.Windows.xr.xml</PackagePath>
+      <Modified>2015-06-18T22:52:26.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-06-18T22:47:35.031</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

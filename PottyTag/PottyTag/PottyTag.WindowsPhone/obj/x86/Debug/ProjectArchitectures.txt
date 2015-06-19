@@ -1,0 +1,1 @@
+C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\PottyTag.WindowsPhone.csproj;x86
