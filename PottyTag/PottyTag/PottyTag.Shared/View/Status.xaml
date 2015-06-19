@@ -9,6 +9,17 @@
     DataContext="{Binding ViewModel, RelativeSource={RelativeSource Self}}">
 
     <Grid Background="{StaticResource PT_PageBackgroundBrush}">
+        <Button
+            x:Name="GenderSelectButton"
+            Margin="5"
+            Style="{StaticResource PT_GenderSelect}"
+            MaxWidth="60"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Right"
+            Canvas.ZIndex="100"
+            Click="GenderSelectButton_Click">
+            Gender Select
+        </Button>
         <Image
             HorizontalAlignment="Right"
             VerticalAlignment="Top"
@@ -38,56 +49,60 @@
                     Margin="5"
                     Grid.Column="0"
                     Style="{StaticResource PT_ToiletOccupiedMale}"
-                    Visibility="{Binding IsMaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Male 1
+                    Visibility="{Binding IsMaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}"
+                    Click="EnabledToiletOneButton_Click">
                 </Button>
                 <Button
                     Margin="5"
                     Grid.Column="1"
                     Style="{StaticResource PT_ToiletOccupiedMale}"
-                    Visibility="{Binding IsMaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Male 2
+                    Visibility="{Binding IsMaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}"
+                    Click="EnabledToiletTwoButton_Click">
                 </Button>
                 <Button
                     Margin="5"
                     Grid.Column="0"
                     Style="{StaticResource PT_ToiletOccupiedFemale}"
-                    Visibility="{Binding IsFemaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Female 1
+                    Visibility="{Binding IsFemaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}"
+                    Click="EnabledToiletOneButton_Click">
                 </Button>
                 <Button
                     Margin="5"
                     Grid.Column="1"
                     Style="{StaticResource PT_ToiletOccupiedFemale}"
-                    Visibility="{Binding IsFemaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Female 2
+                    Visibility="{Binding IsFemaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}"
+                    Click="EnabledToiletTwoButton_Click">
                 </Button>
                 <Button
                     Margin="5"
                     Grid.Column="0"
                     Style="{StaticResource PT_OpenToilet}"
-                    Visibility="{Binding IsToiletOneOpen, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Toilet 1 Open
+                    Visibility="{Binding IsToiletOneOpen, Converter={StaticResource BoolToVisibilityConverter}}"
+                    Click="EnabledToiletOneButton_Click">
                 </Button>
                 <Button
                     Margin="5"
                     Grid.Column="1"
                     Style="{StaticResource PT_OpenToilet}"
-                    Visibility="{Binding IsToiletTwoOpen, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Toilet 2 Open
+                    Visibility="{Binding IsToiletTwoOpen, Converter={StaticResource BoolToVisibilityConverter}}"
+                    Click="EnabledToiletTwoButton_Click">
                 </Button>
                 <Button
+                    x:Name="DisabledToiletOneButton"
                     Margin="5"
                     Grid.Column="0"
                     Style="{StaticResource PT_DisabledToilet}"
-                    Visibility="{Binding IsToiletOneDisabled, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Visibility="{Binding IsToiletOneDisabled, Converter={StaticResource BoolToVisibilityConverter}}"
+                    Click="DisabledToiletOneButton_Click">
                     Toilet 1 Disabled
                 </Button>
                 <Button
+                    x:Name="DisabledToiletTwoButton"
                     Margin="5"
                     Grid.Column="1"
                     Style="{StaticResource PT_DisabledToilet}"
-                    Visibility="{Binding IsToiletTwoDisabled, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Visibility="{Binding IsToiletTwoDisabled, Converter={StaticResource BoolToVisibilityConverter}}"
+                    Click="DisabledToiletTwoButton_Click">
                     Toilet 2 Disabled
                 </Button>
             </Grid>

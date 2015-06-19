@@ -17,8 +17,8 @@ namespace PottyTag.Model
         {
             NumMales = m_population;
             NumFemales = f_population;
-            IsOneDisabled = left_toilet;
-            IsTwoDisabled = right_toilet;
+            IsOneDisabled = !left_toilet;
+            IsTwoDisabled = !right_toilet;
         }
     }
 }

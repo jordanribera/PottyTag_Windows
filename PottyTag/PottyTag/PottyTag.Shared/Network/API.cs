@@ -85,6 +85,36 @@ namespace PottyTag.Network
             return success;
         }
 
+        public async Task<bool> DisableToilet(bool isToiletOne)
+        {
+            bool success = false;
+
+            string url = BASE + "r=action&action=addflag&toilet_id=" + (isToiletOne ? "0" : "1");
+            var response = await Get(url);
+
+            if (!string.IsNullOrEmpty(response) && response.Contains("true"))
+            {
+                success = true;
+            }
+
+            return success;
+        }
+
+        public async Task<bool> EnableToilet(bool isToiletOne)
+        {
+            bool success = false;
+
+            string url = BASE + "r=action&action=removeflag&toilet_id=" + (isToiletOne ? "0" : "1");
+            var response = await Get(url);
+
+            if (!string.IsNullOrEmpty(response) && response.Contains("true"))
+            {
+                success = true;
+            }
+
+            return success;
+        }
+
         private async Task<string> Get(string url)
         {
             string responseString = null;

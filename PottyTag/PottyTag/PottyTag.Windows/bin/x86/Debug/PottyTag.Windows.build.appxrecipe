@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\f_toilet_use_.png">
       <PackagePath>Assets\icons\f_toilet_use_.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\menu_button.png">
+      <PackagePath>Assets\icons\menu_button.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\m_cutiepoo.png">
       <PackagePath>Assets\icons\m_cutiepoo.png</PackagePath>
     </AppxPackagedFile>

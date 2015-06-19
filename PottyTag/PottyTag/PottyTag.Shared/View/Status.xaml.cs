@@ -74,7 +74,7 @@ namespace PottyTag.View
             UpdateStatus();
 
             _timer = new DispatcherTimer();
-            _timer.Interval = new TimeSpan(0, 0, 0, 30, 0);
+            _timer.Interval = new TimeSpan(0, 0, 0, 5, 0);
             _timer.Tick += _timer_Tick;
             _timer.Start();
         }
@@ -179,7 +179,7 @@ namespace PottyTag.View
                     {
                         // Somebody forgot to check out
                         ViewModel.IsMaleOneOccupied = true;
-                        ViewModel.IsFemaleOneOccupied = true;
+                        ViewModel.IsFemaleTwoOccupied = true;
                     }
                     else if (status.NumMales >= 2)
                     {
@@ -222,5 +222,34 @@ namespace PottyTag.View
         }
 
         #endregion
+
+        private void GenderSelectButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(GenderSelect));
+        }
+
+        private void EnabledToiletOneButton_Click(object sender, RoutedEventArgs e)
+        {
+            API.Current.DisableToilet(true);
+            UpdateStatus();
+        }
+
+        private void EnabledToiletTwoButton_Click(object sender, RoutedEventArgs e)
+        {
+            API.Current.DisableToilet(false);
+            UpdateStatus();
+        }
+        
+        private void DisabledToiletOneButton_Click(object sender, RoutedEventArgs e)
+        {
+            API.Current.EnableToilet(true);
+            UpdateStatus();
+        }
+
+        private void DisabledToiletTwoButton_Click(object sender, RoutedEventArgs e)
+        {
+            API.Current.EnableToilet(false);
+            UpdateStatus();
+        }
     }
 }

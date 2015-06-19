@@ -94,6 +94,7 @@
     <Content Include="Assets\icons\f_cutiepoo.png" />
     <Content Include="Assets\icons\f_toilet_use.png" />
     <Content Include="Assets\icons\f_toilet_use_.png" />
+    <Content Include="Assets\icons\menu_button.png" />
     <Content Include="Assets\icons\m_cutiepoo.png" />
     <Content Include="Assets\icons\m_toilet_use.png" />
     <Content Include="Assets\icons\out_of_order.png" />

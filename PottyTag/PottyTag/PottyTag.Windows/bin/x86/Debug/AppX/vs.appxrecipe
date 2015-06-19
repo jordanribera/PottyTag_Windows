@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-06-19T10:56:31.672</Modified>
+      <Modified>2015-06-19T17:27:20.712</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\PottyTag.Windows.exe">
       <PackagePath>PottyTag.Windows.exe</PackagePath>
-      <Modified>2015-06-19T10:56:31.564</Modified>
+      <Modified>2015-06-19T17:50:39.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -55,6 +55,10 @@
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\f_toilet_use_.png">
       <PackagePath>Assets\icons\f_toilet_use_.png</PackagePath>
       <Modified>2015-06-19T09:21:41.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\menu_button.png">
+      <PackagePath>Assets\icons\menu_button.png</PackagePath>
+      <Modified>2015-06-19T17:06:37.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\m_cutiepoo.png">
       <PackagePath>Assets\icons\m_cutiepoo.png</PackagePath>
@@ -118,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\Styles\Buttons.xbf">
       <PackagePath>Styles\Buttons.xbf</PackagePath>
-      <Modified>2015-06-19T09:25:59.128</Modified>
+      <Modified>2015-06-19T17:46:50.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\Styles\Colors.xbf">
       <PackagePath>Styles\Colors.xbf</PackagePath>
@@ -130,15 +134,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\View\Status.xbf">
       <PackagePath>View\Status.xbf</PackagePath>
-      <Modified>2015-06-19T10:56:31.378</Modified>
+      <Modified>2015-06-19T17:45:51.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\PottyTag.Windows.xr.xml">
       <PackagePath>PottyTag.Windows.xr.xml</PackagePath>
-      <Modified>2015-06-19T10:56:31.365</Modified>
+      <Modified>2015-06-19T17:28:39.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-06-19T10:56:31.623</Modified>
+      <Modified>2015-06-19T17:27:20.670</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

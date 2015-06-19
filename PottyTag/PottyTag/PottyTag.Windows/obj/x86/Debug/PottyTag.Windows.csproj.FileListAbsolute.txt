@@ -52,5 +52,5 @@ C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\obj\
 C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\obj\x86\Debug\Styles\Buttons.xbf
 C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\obj\x86\Debug\PottyTag.Windows.csprojResolveAssemblyReference.cache
+C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\obj\x86\Debug\Styles\Buttons.xbf
