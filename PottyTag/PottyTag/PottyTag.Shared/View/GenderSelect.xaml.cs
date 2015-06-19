@@ -89,6 +89,7 @@ namespace PottyTag.View
         {
             Debug.WriteLine("[GenderSelect] SetGenderAndContinue: " + gender);
             Settings.Current.Gender = gender;
+            PopAudio.Play();
             Frame.Navigate(typeof(Status));
         }
     }

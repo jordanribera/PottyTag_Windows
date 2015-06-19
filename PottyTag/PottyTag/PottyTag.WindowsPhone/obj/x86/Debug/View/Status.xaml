@@ -9,6 +9,17 @@
     DataContext="{Binding ViewModel, RelativeSource={RelativeSource Self}}">
 
     <Grid Background="{StaticResource PT_PageBackgroundBrush}">
+        <Button x:ConnectionId='1'
+            x:Name="GenderSelectButton"
+            Margin="5"
+            Style="{StaticResource PT_GenderSelect}"
+            MaxWidth="60"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Right"
+            Canvas.ZIndex="100"
+                                            >
+            Gender Select
+        </Button>
         <Image
             HorizontalAlignment="Right"
             VerticalAlignment="Top"
@@ -34,65 +45,69 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button
+                <Button x:ConnectionId='4'
                     Margin="5"
                     Grid.Column="0"
                     Style="{StaticResource PT_ToiletOccupiedMale}"
-                    Visibility="{Binding IsMaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Male 1
+                    Visibility="{Binding IsMaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                        >
                 </Button>
-                <Button
+                <Button x:ConnectionId='5'
                     Margin="5"
                     Grid.Column="1"
                     Style="{StaticResource PT_ToiletOccupiedMale}"
-                    Visibility="{Binding IsMaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Male 2
+                    Visibility="{Binding IsMaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                        >
                 </Button>
-                <Button
+                <Button x:ConnectionId='6'
                     Margin="5"
                     Grid.Column="0"
                     Style="{StaticResource PT_ToiletOccupiedFemale}"
-                    Visibility="{Binding IsFemaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Female 1
+                    Visibility="{Binding IsFemaleOneOccupied, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                        >
                 </Button>
-                <Button
+                <Button x:ConnectionId='7'
                     Margin="5"
                     Grid.Column="1"
                     Style="{StaticResource PT_ToiletOccupiedFemale}"
-                    Visibility="{Binding IsFemaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Female 2
+                    Visibility="{Binding IsFemaleTwoOccupied, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                        >
                 </Button>
-                <Button
+                <Button x:ConnectionId='8'
                     Margin="5"
                     Grid.Column="0"
                     Style="{StaticResource PT_OpenToilet}"
-                    Visibility="{Binding IsToiletOneOpen, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Toilet 1 Open
+                    Visibility="{Binding IsToiletOneOpen, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                        >
                 </Button>
-                <Button
+                <Button x:ConnectionId='9'
                     Margin="5"
                     Grid.Column="1"
                     Style="{StaticResource PT_OpenToilet}"
-                    Visibility="{Binding IsToiletTwoOpen, Converter={StaticResource BoolToVisibilityConverter}}">
-                    Toilet 2 Open
+                    Visibility="{Binding IsToiletTwoOpen, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                        >
                 </Button>
-                <Button
+                <Button x:ConnectionId='10'
+                    x:Name="DisabledToiletOneButton"
                     Margin="5"
                     Grid.Column="0"
                     Style="{StaticResource PT_DisabledToilet}"
-                    Visibility="{Binding IsToiletOneDisabled, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Visibility="{Binding IsToiletOneDisabled, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                         >
                     Toilet 1 Disabled
                 </Button>
-                <Button
+                <Button x:ConnectionId='11'
+                    x:Name="DisabledToiletTwoButton"
                     Margin="5"
                     Grid.Column="1"
                     Style="{StaticResource PT_DisabledToilet}"
-                    Visibility="{Binding IsToiletTwoDisabled, Converter={StaticResource BoolToVisibilityConverter}}">
+                    Visibility="{Binding IsToiletTwoDisabled, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                         >
                     Toilet 2 Disabled
                 </Button>
             </Grid>
             
-            <Button x:ConnectionId='1'
+            <Button x:ConnectionId='2'
                 Grid.Row="2"
                 HorizontalAlignment="Center"
                 Margin="40"
@@ -102,7 +117,7 @@
                 Visibility="{Binding IsCheckedIn, Converter={StaticResource NegatedBoolToVisibilityConverter}}">
                 Check In
             </Button>
-            <Button x:ConnectionId='2'
+            <Button x:ConnectionId='3'
                 Grid.Row="2"
                 HorizontalAlignment="Center"
                 Margin="40"
@@ -118,6 +133,26 @@
             Canvas.ZIndex="-1"
             VerticalAlignment="Bottom"
             Source="/Assets/icons/wave.png"/>
+        <MediaElement
+            x:Name="FlushAudio"
+            Source="/Assets/audio/Bathroom_toiletflush.mp3"
+            Visibility="Collapsed"
+            AutoPlay="False"/>
+        <MediaElement
+            x:Name="PopAudio"
+            Source="/Assets/audio/IMPACT_CHEEK_SMACK_POP_01.mp3"
+            Visibility="Collapsed"
+            AutoPlay="False"/>
+        <MediaElement
+            x:Name="OhMyAudio"
+            Source="/Assets/audio/oh_my.mp3"
+            Visibility="Collapsed"
+            AutoPlay="False"/>
+        <MediaElement
+            x:Name="NiceWork"
+            Source="/Assets/audio/nice-work.mp3"
+            Visibility="Collapsed"
+            AutoPlay="False"/>
     </Grid>
 </Page>
 

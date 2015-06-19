@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\sheldon\documents\code\pottytag\pottytag\pottytag\pottytag.windowsphone\obj\x86\debug\intermediatexaml\pottytag.windowsphone.exe" HashGuid="48eec7aa-f9d0-f574-1163-202adcc82aea" />
-    <ReferenceAssembly PathName="c:\users\sheldon\documents\code\pottytag\pottytag\packages\newtonsoft.json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="225745d8-3693-ad6f-ebd5-8845d81f8e0f" />
+    <ReferenceAssembly PathName="c:\users\sheldon\documents\code\pottytag_windows\pottytag\packages\newtonsoft.json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="225745d8-3693-ad6f-ebd5-8845d81f8e0f" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

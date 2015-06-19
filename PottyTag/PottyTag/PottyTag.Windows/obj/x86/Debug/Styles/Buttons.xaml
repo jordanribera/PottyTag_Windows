@@ -66,6 +66,7 @@
                                     Visibility="Collapsed"/>
                                 <Image
                                     x:Name="PressedImage"
+                                    Margin="5,-5,5,-5"
                                     Source="/Assets/icons/m_cutiepoo.png"
                                     Visibility="Collapsed"/>
                                 <Image
@@ -145,6 +146,7 @@
                                     Visibility="Collapsed"/>
                                 <Image
                                     x:Name="PressedImage"
+                                    Margin="5,-5,5,-5"
                                     Source="/Assets/icons/f_cutiepoo.png"
                                     Visibility="Collapsed"/>
                                 <Image
@@ -224,6 +226,7 @@
                                     Visibility="Collapsed"/>
                                 <Image
                                     x:Name="PressedImage"
+                                    Margin="5,-5,5,-5"
                                     Source="/Assets/icons/toilet.png"
                                     Visibility="Collapsed"/>
                                 <Image
@@ -303,6 +306,7 @@
                                     Visibility="Collapsed"/>
                                 <Image
                                     x:Name="PressedImage"
+                                    Margin="5,-5,5,-5"
                                     Source="/Assets/icons/out_of_order.png"
                                     Visibility="Collapsed"/>
                                 <Image
@@ -382,6 +386,7 @@
                                     Visibility="Collapsed"/>
                                 <Image
                                     x:Name="PressedImage"
+                                    Margin="5,-5,5,-5"
                                     Source="/Assets/icons/m_toilet_use.png"
                                     Visibility="Collapsed"/>
                                 <Image
@@ -461,6 +466,7 @@
                                     Visibility="Collapsed"/>
                                 <Image
                                     x:Name="PressedImage"
+                                    Margin="5,-5,5,-5"
                                     Source="/Assets/icons/f_toilet_use.png"
                                     Visibility="Collapsed"/>
                                 <Image
@@ -540,6 +546,7 @@
                                     Visibility="Collapsed"/>
                                 <Image
                                     x:Name="PressedImage"
+                                    Margin="5,-5,5,-5"
                                     Source="/Assets/icons/check_in_button.png"
                                     Visibility="Collapsed"/>
                                 <Image
@@ -619,6 +626,7 @@
                                     Visibility="Collapsed"/>
                                 <Image
                                     x:Name="PressedImage"
+                                    Margin="5,-5,5,-5"
                                     Source="/Assets/icons/check_out_button.png"
                                     Visibility="Collapsed"/>
                                 <Image
@@ -634,7 +642,7 @@
         </Setter>
     </Style>
 
-    <!-- Check In -->
+    <!-- Gender Select -->
     <Style x:Key="PT_GenderSelect" TargetType="Button">
         <Setter Property="Template">
             <Setter.Value>
@@ -698,6 +706,7 @@
                                     Visibility="Collapsed"/>
                                 <Image
                                     x:Name="PressedImage"
+                                    Margin="5,-5,5,-5"
                                     Source="/Assets/icons/menu_button.png"
                                     Visibility="Collapsed"/>
                                 <Image

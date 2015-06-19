@@ -7,104 +7,116 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c3e09421-8a30-4cdf-97b2-f70ce1ac83d7</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\PottyTag.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\PottyTag.Windows.exe">
       <PackagePath>PottyTag.Windows.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\bathroom_status.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\audio\Bathroom_toiletflush.mp3">
+      <PackagePath>Assets\audio\Bathroom_toiletflush.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\audio\IMPACT_CHEEK_SMACK_POP_01.mp3">
+      <PackagePath>Assets\audio\IMPACT_CHEEK_SMACK_POP_01.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\audio\oh_my.mp3">
+      <PackagePath>Assets\audio\oh_my.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\audio\nice-work.wav">
+      <PackagePath>Assets\audio\nice-work.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\bathroom_status.png">
       <PackagePath>Assets\icons\bathroom_status.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\check_in_button.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\check_in_button.png">
       <PackagePath>Assets\icons\check_in_button.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\check_out_button.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\check_out_button.png">
       <PackagePath>Assets\icons\check_out_button.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\f_cutiepoo.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\f_cutiepoo.png">
       <PackagePath>Assets\icons\f_cutiepoo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\f_toilet_use.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\f_toilet_use.png">
       <PackagePath>Assets\icons\f_toilet_use.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\f_toilet_use_.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\f_toilet_use_.png">
       <PackagePath>Assets\icons\f_toilet_use_.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\menu_button.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\menu_button.png">
       <PackagePath>Assets\icons\menu_button.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\m_cutiepoo.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\m_cutiepoo.png">
       <PackagePath>Assets\icons\m_cutiepoo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\m_toilet_use.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\m_toilet_use.png">
       <PackagePath>Assets\icons\m_toilet_use.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\out_of_order.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\out_of_order.png">
       <PackagePath>Assets\icons\out_of_order.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\pottytag_water.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\pottytag_water.png">
       <PackagePath>Assets\icons\pottytag_water.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\selectgender.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\selectgender.png">
       <PackagePath>Assets\icons\selectgender.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\toilet.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\toilet.png">
       <PackagePath>Assets\icons\toilet.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\waterdrop.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\waterdrop.png">
       <PackagePath>Assets\icons\waterdrop.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\wave.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\icons\wave.png">
       <PackagePath>Assets\icons\wave.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\Common\Helpers\IValueConverters\Converters.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\Common\Helpers\IValueConverters\Converters.xbf">
       <PackagePath>Common\Helpers\IValueConverters\Converters.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\Styles\Buttons.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\Styles\Buttons.xbf">
       <PackagePath>Styles\Buttons.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\Styles\Colors.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\Styles\Colors.xbf">
       <PackagePath>Styles\Colors.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\View\GenderSelect.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\View\GenderSelect.xbf">
       <PackagePath>View\GenderSelect.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\View\Status.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\View\Status.xbf">
       <PackagePath>View\Status.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\PottyTag.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\PottyTag.Windows.xr.xml">
       <PackagePath>PottyTag.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

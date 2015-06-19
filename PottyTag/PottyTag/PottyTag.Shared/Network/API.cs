@@ -21,14 +21,22 @@ namespace PottyTag.Network
         public async Task<BathroomStatus> GetStatus()
         {
             BathroomStatus bathroomStatus = null;                        
-            string url = BASE + "r=status";
-            var response = await Get(url);
 
-            Debug.WriteLine("GetStatus() response: " + response);
-
-            if (!string.IsNullOrEmpty(response))
+            try
             {
-                bathroomStatus = JsonConvert.DeserializeObject<BathroomStatus>(response);
+                string url = BASE + "r=status";
+                var response = await Get(url);
+
+                Debug.WriteLine("GetStatus() response: " + response);
+
+                if (!string.IsNullOrEmpty(response))
+                {
+                    bathroomStatus = JsonConvert.DeserializeObject<BathroomStatus>(response);
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine("[API] GetStatus() Exception: " + e.StackTrace);
             }
 
             return bathroomStatus;
@@ -40,26 +48,34 @@ namespace PottyTag.Network
             string id = Settings.Current.Id;
             bool success = false;
 
-            string url = BASE + "r=action&action=checkin&gender=" + gender;
-
-            if (!string.IsNullOrEmpty(id))
+            try
             {
-                url += "&last_checkin=" + id;
-            }
+                string url = BASE + "r=action&action=checkin&gender=" + gender;
 
-            var response = await Get(url);
-
-            if (!string.IsNullOrEmpty(response))
-            {
-                CheckInResponse checkInResponse = JsonConvert.DeserializeObject<CheckInResponse>(response);
-                
-                if (checkInResponse.Success)
+                if (!string.IsNullOrEmpty(id))
                 {
-                    success = true;
-                    Settings.Current.Id = checkInResponse.Id.ToString();
-                    Debug.WriteLine("[API] CheckIn() id: " + Settings.Current.Id);
+                    url += "&last_checkin=" + id;
+                }
+
+                var response = await Get(url);
+
+                if (!string.IsNullOrEmpty(response))
+                {
+                    CheckInResponse checkInResponse = JsonConvert.DeserializeObject<CheckInResponse>(response);
+
+                    if (checkInResponse.Success)
+                    {
+                        success = true;
+                        Settings.Current.Id = checkInResponse.Id.ToString();
+                        Debug.WriteLine("[API] CheckIn() id: " + Settings.Current.Id);
+                    }
                 }
             }
+            catch (Exception e)
+            {
+                Debug.WriteLine("[API] CheckIn() Exception: " + e.StackTrace);
+            }
+            
 
             return success;
         }
@@ -70,16 +86,23 @@ namespace PottyTag.Network
             string id = Settings.Current.Id;
             bool success = false;
             
-            if (!string.IsNullOrEmpty(id))
+            try
             {
-                string url = BASE + "r=action&action=checkout&last_checkin=" + id;
-                var response = await Get(url);
-
-                if (!string.IsNullOrEmpty(response) && response.Contains("true"))
+                if (!string.IsNullOrEmpty(id))
                 {
-                    success = true;
-                    Settings.Current.Id = null;
+                    string url = BASE + "r=action&action=checkout&last_checkin=" + id;
+                    var response = await Get(url);
+
+                    if (!string.IsNullOrEmpty(response) && response.Contains("true"))
+                    {
+                        success = true;
+                        Settings.Current.Id = null;
+                    }
                 }
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine("[API] CheckOut() Exception: " + e.StackTrace);
             }
 
             return success;

@@ -1,1 +1,1 @@
-C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\PottyTag.WindowsPhone.csproj;x86
+C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\PottyTag.WindowsPhone.csproj;x86

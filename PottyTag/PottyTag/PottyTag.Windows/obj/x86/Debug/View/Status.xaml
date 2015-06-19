@@ -133,6 +133,26 @@
             Canvas.ZIndex="-1"
             VerticalAlignment="Bottom"
             Source="/Assets/icons/wave.png"/>
+        <MediaElement
+            x:Name="FlushAudio"
+            Source="/Assets/audio/Bathroom_toiletflush.mp3"
+            Visibility="Collapsed"
+            AutoPlay="False"/>
+        <MediaElement
+            x:Name="PopAudio"
+            Source="/Assets/audio/IMPACT_CHEEK_SMACK_POP_01.mp3"
+            Visibility="Collapsed"
+            AutoPlay="False"/>
+        <MediaElement
+            x:Name="OhMyAudio"
+            Source="/Assets/audio/oh_my.mp3"
+            Visibility="Collapsed"
+            AutoPlay="False"/>
+        <MediaElement
+            x:Name="NiceWork"
+            Source="/Assets/audio/nice-work.mp3"
+            Visibility="Collapsed"
+            AutoPlay="False"/>
     </Grid>
 </Page>
 

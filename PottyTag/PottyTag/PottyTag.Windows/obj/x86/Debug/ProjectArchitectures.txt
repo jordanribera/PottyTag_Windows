@@ -1,1 +1,1 @@
-C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.Windows\PottyTag.Windows.csproj;x86
+C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.Windows\PottyTag.Windows.csproj;x86

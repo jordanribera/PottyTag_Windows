@@ -7,109 +7,124 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>40574167-d32b-4f47-9693-dd10267d0c5f</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\PottyTag.WindowsPhone.exe">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\PottyTag.WindowsPhone.exe">
       <PackagePath>PottyTag.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\bathroom_status.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\audio\Bathroom_toiletflush.mp3">
+      <PackagePath>Assets\audio\Bathroom_toiletflush.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\audio\IMPACT_CHEEK_SMACK_POP_01.mp3">
+      <PackagePath>Assets\audio\IMPACT_CHEEK_SMACK_POP_01.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\audio\oh_my.mp3">
+      <PackagePath>Assets\audio\oh_my.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\audio\nice-work.wav">
+      <PackagePath>Assets\audio\nice-work.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\bathroom_status.png">
       <PackagePath>Assets\icons\bathroom_status.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\check_in_button.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\check_in_button.png">
       <PackagePath>Assets\icons\check_in_button.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\check_out_button.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\check_out_button.png">
       <PackagePath>Assets\icons\check_out_button.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\f_cutiepoo.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\f_cutiepoo.png">
       <PackagePath>Assets\icons\f_cutiepoo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\f_toilet_use.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\f_toilet_use.png">
       <PackagePath>Assets\icons\f_toilet_use.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\f_toilet_use_.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\f_toilet_use_.png">
       <PackagePath>Assets\icons\f_toilet_use_.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\m_cutiepoo.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\menu_button.png">
+      <PackagePath>Assets\icons\menu_button.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\m_cutiepoo.png">
       <PackagePath>Assets\icons\m_cutiepoo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\m_toilet_use.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\m_toilet_use.png">
       <PackagePath>Assets\icons\m_toilet_use.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\out_of_order.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\out_of_order.png">
       <PackagePath>Assets\icons\out_of_order.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\pottytag_water.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\pottytag_water.png">
       <PackagePath>Assets\icons\pottytag_water.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\selectgender.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\selectgender.png">
       <PackagePath>Assets\icons\selectgender.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\toilet.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\toilet.png">
       <PackagePath>Assets\icons\toilet.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\waterdrop.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\waterdrop.png">
       <PackagePath>Assets\icons\waterdrop.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\wave.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\icons\wave.png">
       <PackagePath>Assets\icons\wave.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\Common\Helpers\IValueConverters\Converters.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\Common\Helpers\IValueConverters\Converters.xbf">
       <PackagePath>Common\Helpers\IValueConverters\Converters.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\Styles\Buttons.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\Styles\Buttons.xbf">
       <PackagePath>Styles\Buttons.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\Styles\Colors.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\Styles\Colors.xbf">
       <PackagePath>Styles\Colors.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\View\GenderSelect.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\View\GenderSelect.xbf">
       <PackagePath>View\GenderSelect.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\View\Status.xbf">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\View\Status.xbf">
       <PackagePath>View\Status.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\PottyTag.WindowsPhone.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\PottyTag.WindowsPhone.xr.xml">
       <PackagePath>PottyTag.WindowsPhone.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Sheldon\Documents\code\PottyTag_Windows\PottyTag\PottyTag\PottyTag.WindowsPhone\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

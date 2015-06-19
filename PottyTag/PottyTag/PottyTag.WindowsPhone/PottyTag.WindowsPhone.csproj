@@ -88,6 +88,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\audio\Bathroom_toiletflush.mp3" />
+    <Content Include="Assets\audio\IMPACT_CHEEK_SMACK_POP_01.mp3" />
+    <Content Include="Assets\audio\nice-work.wav" />
+    <Content Include="Assets\audio\oh_my.mp3" />
     <Content Include="Assets\icons\bathroom_status.png" />
     <Content Include="Assets\icons\check_in_button.png" />
     <Content Include="Assets\icons\check_out_button.png" />

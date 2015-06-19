@@ -48,6 +48,7 @@ namespace PottyTag.View
         #endregion
 
         private DispatcherTimer _timer;
+        private int _audioCounter = 0;
 
         public Status()
         {
@@ -89,6 +90,7 @@ namespace PottyTag.View
         {
             Debug.WriteLine("[Status] CheckInButton_Click");
             var success = await API.Current.CheckIn();
+            PopAudio.Play();
             await UpdateStatus();
         }
 
@@ -96,7 +98,28 @@ namespace PottyTag.View
         {
             Debug.WriteLine("[Status] CheckOutButton_Click");
             var success = await API.Current.CheckOut();
+            FlushAudio.Play();
             await UpdateStatus();
+
+            await Task.Delay(2000);
+
+            /*int numSounds = 2;
+            
+            if (_audioCounter == 0)
+            {*/
+                OhMyAudio.Play();
+            /*}
+            else if (_audioCounter == 1)
+            {
+                NiceWork.Play();
+            }*/
+
+            /*_audioCounter++;
+            
+            if (_audioCounter >= numSounds)
+            {
+                _audioCounter = 0;
+            }*/
         }
 
         private void Reset()
@@ -232,24 +255,28 @@ namespace PottyTag.View
         {
             API.Current.DisableToilet(true);
             UpdateStatus();
+            PopAudio.Play();
         }
 
         private void EnabledToiletTwoButton_Click(object sender, RoutedEventArgs e)
         {
             API.Current.DisableToilet(false);
             UpdateStatus();
+            PopAudio.Play();
         }
         
         private void DisabledToiletOneButton_Click(object sender, RoutedEventArgs e)
         {
             API.Current.EnableToilet(true);
             UpdateStatus();
+            PopAudio.Play();
         }
 
         private void DisabledToiletTwoButton_Click(object sender, RoutedEventArgs e)
         {
             API.Current.EnableToilet(false);
             UpdateStatus();
+            PopAudio.Play();
         }
     }
 }
